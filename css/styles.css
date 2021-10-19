@@ -1,0 +1,119 @@
+/** COLORS **
+
+**/
+
+/** FONTS **
+H1,H2 = Boots And Spurs
+p = Roboto
+
+**/
+
+/** GLOBALS **/
+
+@font-face {
+    font-family: 'BootsAndSpurs';
+    src: url('../fonts/BootsAndSpurs.ttf') format("Truetype");
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    }
+
+h1, h2/** #logo **/ {
+    font-family: 'BootsAndSpurs', 'Open Sans', Verdana;
+}
+
+h2 {
+    font-size: 1rem;
+}
+/** HEADER **/
+/** NAVIGATION **/
+nav ul {
+    display: inline-block;
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+}
+
+nav li {
+    display: inline;
+    padding: 15px;
+}
+
+nav a {
+    color: #FFF;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #FFF;
+    padding: 5px;
+    color: blue;
+}
+
+header {
+    background-image: url('../images/home-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: center;
+    height: 850px;
+}
+
+
+/** MAIN SECTION **/
+.hero-cta {
+    background-color: red;
+    padding: 20px 50px;
+    border-radius: 3%;
+}
+.product-keypoints {
+    margin: 0px;'
+    padding: 0px;
+    background-color: #f9f9f9;
+}
+
+.view-cta {
+    color: #000;
+    background-color: red;
+    padding: 10px;
+}
+
+.view-cta:hover { /** This looks shit, change it **/
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    
+}
+
+.product-keypoints-image {
+    border-radius: 4%;
+}
+
+.review-section {
+    background-color: #E8E8E8;
+}
+
+.review-profile-image {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+/** FOOTER **/
+footer {
+    background-color: #000;
+    color: #FFF;
+    height: 100px;
+    margin: 15px 0px;
+}
