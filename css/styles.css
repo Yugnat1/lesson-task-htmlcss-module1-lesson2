@@ -57,12 +57,12 @@ nav a:hover {
     color: blue;
 }
 
-header {
+.welcome-section {
     background-image: url('../images/home-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: right;
-    background-position-y: center;
+    background-position-y: bottom;
     height: 850px;
 }
 
