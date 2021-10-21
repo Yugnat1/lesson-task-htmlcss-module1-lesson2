@@ -15,6 +15,12 @@ p = Roboto
     src: url('../fonts/BootsAndSpurs.ttf') format("Truetype");
 }
 
+header,
+footer {
+  background-color: #202020;
+  color: #fff;
+}
+
 html, body {
     margin: 0px;
     padding: 0px;
@@ -24,21 +30,17 @@ a {
     text-decoration: none;
     }
 
-h1, h2/** #logo **/ {
+h1, h2, #logo {
     font-family: 'BootsAndSpurs', 'Open Sans', Verdana;
 }
 
-h2 {
-    font-size: 1rem;
+header a {
+    color: #fff;
 }
-/** HEADER **/
 /** NAVIGATION **/
 nav ul {
-    display: inline-block;
-    height: 45px;
     width: 100%;
-    padding: 10px;
-    background-color: #000;
+    background-color: #202020;
 }
 
 nav li {
@@ -47,27 +49,29 @@ nav li {
 }
 
 nav a {
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
 }
 
 nav a:hover {
     text-decoration: underline;
-    background-color: #FFF;
-    padding: 5px;
-    color: blue;
+    font-weight: bold;
 }
 
 .welcome-section {
     background-image: url('../images/home-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: right;
+    background-position-x: left;
     background-position-y: bottom;
     height: 850px;
 }
 
 
 /** MAIN SECTION **/
+.product-keypoints h2{
+    font-family: 'Roboto';
+}
 .hero-cta {
     background-color: red;
     padding: 20px 50px;
