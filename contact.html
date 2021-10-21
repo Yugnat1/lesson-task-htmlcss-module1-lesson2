@@ -20,6 +20,29 @@
     </header>
     <main>
       <h1>Contact</h1>
+      <form action="#" action="POST" class="contact-form">
+        <fieldset>
+          <legend>Your details</legend>
+          <label for="name" >Full Name:</label>
+          <input type="text" name="name" id="name" required class="form__input" />
+          <label for="email" >Email:</label>
+          <input type="email" name="email" id="email" required class="form__input" />
+      </fieldset>
+      <fieldset>
+        <legend>Your purchase</legend>
+        <label for="guitar">Guitar:</label>
+        <select name="guitar" id="guitar" class="form__input">
+            <option value="adirondack-red">Adirondack-red</option>
+            <option value="adirondack-blue">Adirondack-blue</option>
+            <option value="adirondack-green">Adirondack-green</option>
+            <option value="adirondack-yellow">Adirondack-yellow</option>
+        </select>
+        <legend>Additional information</legend>
+        <textarea id="message" name="message" rows="5" cols="30" class="form__input"></textarea>
+        <label for="email-signup"></label> e-mail newsletter</label>
+        <input type="checkbox" name="email-signup" value="email-signup" id="email-signup" class="form__input">
+        <input type="submit" value="Send" class="form__input">
+      </form>
     </main>
     <footer>Copyright &copy;</footer>
   </body>

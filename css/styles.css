@@ -1,10 +1,14 @@
 /** COLORS **
-
+Black - #202020 
+White  - #fff
+Red - 
+Dark Gray - 
+Light Gray .
 **/
 
 /** FONTS **
-H1,H2 = Boots And Spurs
-p = Roboto
+h1 = Boots And Spurs
+h2 - h6, p = Roboto
 
 **/
 
@@ -26,16 +30,22 @@ html, body {
     padding: 0px;
 }
 
+body {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  }
 a {
     text-decoration: none;
     }
 
-h1, h2, #logo {
+h1, #logo {
     font-family: 'BootsAndSpurs', 'Open Sans', Verdana;
 }
 
 header a {
     color: #fff;
+}
+
+
 }
 /** NAVIGATION **/
 nav ul {
@@ -46,7 +56,7 @@ nav ul {
 nav li {
     display: inline;
     padding: 15px;
-}
+    margin: 0;}
 
 nav a {
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
@@ -59,6 +69,7 @@ nav a:hover {
 }
 
 .welcome-section {
+    font-family: 'Roboto';
     background-image: url('../images/home-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +80,7 @@ nav a:hover {
 
 
 /** MAIN SECTION **/
-.product-keypoints h2{
+.product-keypoints h2, li{
     font-family: 'Roboto';
 }
 .hero-cta {
@@ -99,8 +110,9 @@ nav a:hover {
     border-radius: 4%;
 }
 
-.review-section {
+.review-section  {
     background-color: #E8E8E8;
+    font-family: 'Roboto';
 }
 
 .review-profile-image {
@@ -108,9 +120,13 @@ nav a:hover {
 }
 
 
+form {
+    Display: inline-block;
+}
 
-
-
+.form__input {
+    display: block;
+}
 
 
 
