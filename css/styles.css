@@ -33,6 +33,7 @@ html, body {
 body {
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   }
+
 a {
     text-decoration: none;
     }
@@ -45,8 +46,6 @@ header a {
     color: #fff;
 }
 
-
-}
 /** NAVIGATION **/
 nav ul {
     width: 100%;
@@ -56,7 +55,8 @@ nav ul {
 nav li {
     display: inline;
     padding: 15px;
-    margin: 0;}
+    margin: 0;
+}
 
 nav a {
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
@@ -125,6 +125,11 @@ nav a:hover {
 .review-section  {
     background-color: #E8E8E8;
     font-family: 'Roboto';
+}
+
+.review-box {
+    background-color: antiquewhite;
+    display: flex;
 }
 
 .review-profile-image {
